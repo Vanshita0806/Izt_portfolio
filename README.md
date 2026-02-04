@@ -1,0 +1,1 @@
+A personal portfolio website built using HTML, CSS, and JavaScript to showcase my projects, backend development experience, and interest in AI/ML. It features smooth animations, and structured project presentation to highlight my technical journey.
