@@ -1,5 +1,5 @@
 const resumeData = {
-  name: "Vanshita Gupta",
+  name: "Vanshita",
   role: "AI & ML Enthusiast",
   intro:
     "I develop intelligent backend systems using FastAPI and integrate Machine Learning models to build scalable and data-driven applications.",
@@ -11,6 +11,8 @@ const resumeData = {
     github: "https://github.com/Vanshita0806",
     leetcode: "https://leetcode.com/u/Vanshita08/"
   },
+
+  about:["I am an AI/ML enthusiast passionate about building intelligent systems and data-driven solutions.I enjoy developing robust backend architectures using Python frameworks like FastAPI and Flask, while integrating machine learning models to solve real-world problems.I have worked on projects involving disease prediction systems, NLP-based chatbots, recommendation engines, and intelligent classification models. My work focuses on transforming raw data into meaningful insights and deploying scalable backend APIs that power intelligent applications.With strong foundations in Machine Learning, NLP, and system design, I actively participate in hackathons and competitive programming to continuously enhance my problem-solving and analytical skills. I am driven by curiosity and innovation, always exploring new ways to apply AI to impactful real-world challenges."],
 
   skills: [
     "Python", "Java", "JavaScript",

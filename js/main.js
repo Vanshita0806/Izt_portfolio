@@ -5,7 +5,7 @@ navbar.innerHTML = `
     <span class="logo">${resumeData.name}</span>
     <ul class="nav-links">
       ${["hero","about","skills","projects","timeline","contact"]
-        .map(id => `<li><a href="#${id}">${id}</a></li>`).join("")}
+        .map(id => `<li><a href="#${id}">${id.toUpperCase()}</a></li>`).join("")}
     </ul>
   </div>
 `;
@@ -38,9 +38,7 @@ document.getElementById("hero").innerHTML = `
 /* About */
 document.getElementById("about").innerHTML = `
   <h2>About Me</h2>
-  <p>I am an AI/ML enthusiast passionate about building intelligent systems and data-driven solutions. I enjoy developing robust backend architectures using Python frameworks like FastAPI and Flask, while integrating machine learning models to solve real-world problems.
-I have worked on projects involving disease prediction systems, NLP-based chatbots, recommendation engines, and intelligent classification models. My work focuses on transforming raw data into meaningful insights and deploying scalable backend APIs that power intelligent applications.
-With strong foundations in Machine Learning, NLP, and system design, I actively participate in hackathons and competitive programming to continuously enhance my problem-solving and analytical skills. I am driven by curiosity and innovation, always exploring new ways to apply AI to impactful real-world challenges.</p>
+  <p>${resumeData.about}</p>
 `;
 
 /* Skills */
